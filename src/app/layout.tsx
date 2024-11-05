@@ -4,9 +4,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { usePathname } from "next/navigation";
 
-
-
-
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
