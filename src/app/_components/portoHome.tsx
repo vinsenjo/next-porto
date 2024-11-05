@@ -2,8 +2,7 @@
 
 
 import Image from "next/image";
-import Link from "next/link";
-import PortoCardHome from "./cardHome";
+
 import TextRevealByWord from "@/components/ui/text-reveal";
 export default function PortfolioHome() {
     return (

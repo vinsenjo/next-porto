@@ -1,5 +1,5 @@
-import Image from "next/image"
-import PortoCard, { IPorto } from "./portoCard"
+
+import PortoCard from "./portoCard"
 import unpublish from '../../../../lib/comingSoon.json'
 import data from '../../../../lib/porto.json'
 

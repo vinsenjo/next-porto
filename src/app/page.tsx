@@ -1,12 +1,12 @@
-import Image from "next/image";
+
 import Navbar from "./_components/navbar";
-import Hero from "./_components/hero";
-import About from "./_components/about";
+
 import { Metadata } from "next";
-import PortfolioHome from "./_components/portoHome";
+
 import Body from "./_components/body";
 import ContactHome from "./_components/contact";
 import Footer from "./_components/footer";
+import BlurFade from "@/components/ui/blur-fade";
 
 export const metadata: Metadata = {
   title: "About Vinsen",
@@ -20,8 +20,11 @@ export default function Home() {
       <Navbar />
       {/* BODY */}
       <div className=" lg:lg:w-[1200px] px-2">
-        <Body />
-        <ContactHome />
+
+          <Body />
+        <BlurFade delay={0.25} inView>
+          <ContactHome />
+        </BlurFade>
       </div>
       <Footer />
     </div>

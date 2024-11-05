@@ -1,6 +1,4 @@
-import Link from "next/link";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
+
 
 export default function FooterPorto() {
     return (

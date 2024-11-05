@@ -11,8 +11,8 @@ import Marquee from "@/components/ui/marquee";
 
 export default function Index() {
     const icons = [
-        <FaReact />, <RiTailwindCssFill />, <SiNextdotjs />, , <RiJavascriptFill />, <FaNode />,
-        <SiExpress />, <BiLogoTypescript />, <FaGithub />, <SiMysql />, <SiPrisma />, <SiPostman />
+        <FaReact key={1}/>, <RiTailwindCssFill key={2}/>, <SiNextdotjs key={3}/>, , <RiJavascriptFill key={4}/>, <FaNode key={5}/>,
+        <SiExpress key={6}/>, <BiLogoTypescript key={7}/>, <FaGithub  key={8}/>, <SiMysql key={9}/>, <SiPrisma key={10}/>, <SiPostman key={11}/>
 
     ];
 

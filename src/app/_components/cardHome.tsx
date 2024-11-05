@@ -2,8 +2,8 @@ import Image from "next/image"
 
 interface IProps {
     id: number
-    tittle: String
-    caption: String
+    tittle: string
+    caption: string
     image: string
 }
 

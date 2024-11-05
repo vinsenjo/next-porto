@@ -1,7 +1,7 @@
 'use client'
 import TextRevealByWord from "@/components/ui/text-reveal";
 import ClickToCopy from "./copy";
-import { Dock, DockIcon } from "@/components/ui/dock";
+
 import Link from "next/link";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
@@ -16,7 +16,7 @@ export default function ContactHome() {
                     text="Contact Me">
                 </TextRevealByWord>
             </div>
-            <div className="text-xl font-raleway lg:px-40   flex flex-col justify-center h-screen">
+            <div className="text-xl font-raleway  lg:w-2/3   flex flex-col justify-center ">
                 <p className=" lg:text-2xl mb-4 font-medium">Terima kasih telah mengunjungi website saya!</p>
                 <p className="lg:text-xl text-base">Saya selalu tertarik pada proyek baru dan kolaborasi yang menarik. Jika Anda memiliki ide atau tantangan yang membutuhkan solusi kreatif, atau jika Anda ingin bekerja sama dalam proyek jangka panjang, saya dengan senang hati akan mendiskusikannya lebih lanjut.<br /> Jangan ragu untuk menghubungi saya.</p>
                 <p className="mt-5 text-base">Klik email untuk menyalin</p>
