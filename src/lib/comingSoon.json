@@ -1,0 +1,16 @@
+[
+  {
+    "imgSrc": "/porto/ticketist.png",
+    "title": "Ticketist",
+    "caption": "Website event management",
+    "tech": [
+      "Next.js",
+      "Express.js",
+      "Tailwind",
+      "My SQL",
+      "Prisma ORM",
+      "Midtrans"
+    ],
+    "link": "https://github.com/vinsenjo/mini-project.git"
+  }
+]

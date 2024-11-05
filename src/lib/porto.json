@@ -1,0 +1,25 @@
+[
+  {
+    "imgSrc": "/porto/nezztar.png",
+    "title": "Nezztar",
+    "caption": "Web application untuk rental property",
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Prisma ORM",
+      "Express.js",
+      "My SQL",
+      "Supabase",
+      "Midtrans"
+    ],
+    "link": "https://jcwd040802.purwadhikabootcamp.com/"
+  },
+  {
+    "imgSrc": "/porto/flazz.png",
+    "title": "Flazz",
+    "caption": "Company profile perusahaan jasa pindahan",
+    "tech": ["Next.js", "Tailwind", "Contentful"],
+    "link": "https://compro-theta.vercel.app/"
+  }
+]
