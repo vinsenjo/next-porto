@@ -9,7 +9,7 @@ import Footer from "./_components/footer";
 import BlurFade from "@/components/ui/blur-fade";
 
 export const metadata: Metadata = {
-  title: "About Vinsen",
+  title: "Vinsen Jovin",
   description: "Learn more about Vinsensius Jovinda.",
 };
 
@@ -21,7 +21,7 @@ export default function Home() {
       {/* BODY */}
       <div className=" lg:lg:w-[1200px] px-2">
 
-          <Body />
+        <Body />
         <BlurFade delay={0.25} inView>
           <ContactHome />
         </BlurFade>

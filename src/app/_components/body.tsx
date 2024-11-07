@@ -13,9 +13,9 @@ export default function Body() {
     return (
         <div className="relative">
             <div>
-                <div className={`sticky lg:lg:w-[1200px] top-[83%]  flex justify-end lg:lg:px-40 text-xl lg:text-2xl text-black p-4`}>
+                <div className={`sticky lg:lg:w-[1200px] top-[83%] z-30 flex justify-end lg:lg:px-40 text-xl lg:text-2xl text-black p-4`}>
                     <div className="relative ">
-                        <Dock direction="middle" className=" right-40 shadow-lg">
+                        <Dock direction="middle" className="right-40 shadow-lg  ">
                             <DockIcon>
                                 <Link href={'https://www.linkedin.com/in/vinsensius-jovinda/'} target="_blank">
                                     <FaLinkedin />
